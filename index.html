@@ -7,8 +7,24 @@
     <title>My First JavaScript</title>
 </head>
 <body>
-    <h2>My First JavaScript</h2>
+    <!-- <h2>My First JavaScript</h2>
     <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click Me to Display Time And Date</button>
-    <p id="demo"></p>
+    <p id="demo"></p> -->
+    <!-- w3 js pop up alert -->
+<h2>javaScript Popup</h2>
+<button onclick="myFunction()">Try It</button>
+<p id="demo"></p>
+<script>
+    function myFunction(){
+        var txt;
+        if (confirm("press button!")){
+            text="you pressed okay!"
+            else {
+                text="you pressed cancel!"
+            }
+        }
+        document.getElementById("demo").innerHTML=txt
+    }
+</script>
 </body>
 </html>
